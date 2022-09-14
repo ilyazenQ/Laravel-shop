@@ -16,7 +16,7 @@ class DatabaseSeeder extends Seeder
 {
     public function run(): void
     {
-        $products = Product::factory(150)->create();
+        $products = Product::factory(50000)->create();
         $cities = City::factory(30)->create();
         $categories = Category::factory(100)->create();
 
